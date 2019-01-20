@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delete todo list item 1`] = `
+<li
+  className="TodoListItem"
+>
+  My todo
+  <span
+    onClick={[Function]}
+  >
+    X
+  </span>
+</li>
+`;
+
+exports[`Render todo list item 1`] = `
+<li
+  className="TodoListItem"
+>
+  My todo
+  <span
+    onClick={[Function]}
+  >
+    X
+  </span>
+</li>
+`;

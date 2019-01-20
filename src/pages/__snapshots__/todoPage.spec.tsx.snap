@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add todo 1`] = `
+<div
+  className="TodoPage"
+>
+  <h1>
+    My Todo Page
+  </h1>
+  <div
+    className="TodoInput"
+  >
+    <input
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Type a todo and press 'enter' to add"
+      value=""
+    />
+  </div>
+  <ul>
+    <li
+      className="TodoListItem"
+    >
+      my todo
+      <span
+        onClick={[Function]}
+      >
+        X
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Empty todo page 1`] = `
+<div
+  className="TodoPage"
+>
+  <h1>
+    My Todo Page
+  </h1>
+  <div
+    className="TodoInput"
+  >
+    <input
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Type a todo and press 'enter' to add"
+      value=""
+    />
+  </div>
+  <ul />
+</div>
+`;
+
+exports[`Remove todo 1`] = `
+<div
+  className="TodoPage"
+>
+  <h1>
+    My Todo Page
+  </h1>
+  <div
+    className="TodoInput"
+  >
+    <input
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Type a todo and press 'enter' to add"
+      value=""
+    />
+  </div>
+  <ul />
+</div>
+`;
+
+exports[`Todo page with items 1`] = `
+<div
+  className="TodoPage"
+>
+  <h1>
+    My Todo Page
+  </h1>
+  <div
+    className="TodoInput"
+  >
+    <input
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Type a todo and press 'enter' to add"
+      value=""
+    />
+  </div>
+  <ul>
+    <li
+      className="TodoListItem"
+    >
+      My todo
+      <span
+        onClick={[Function]}
+      >
+        X
+      </span>
+    </li>
+  </ul>
+</div>
+`;
